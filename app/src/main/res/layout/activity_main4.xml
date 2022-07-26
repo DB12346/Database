@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="303dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="72dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView_no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_id" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="196dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="56dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_no"
+        android:layout_width="277dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="84dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textview9_pass"
+        android:layout_width="253dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="200dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_no"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/send_moneyid"
+        android:layout_width="171dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginBottom="107dp"
+        android:text="Send money"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview9_pass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
